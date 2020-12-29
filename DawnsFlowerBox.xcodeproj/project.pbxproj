@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		648EB471259B81E100932EA0 /* DawnsFlowerBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB470259B81E100932EA0 /* DawnsFlowerBoxApp.swift */; };
+		648EB473259B81E100932EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB472259B81E100932EA0 /* ContentView.swift */; };
+		648EB475259B81E200932EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EB474259B81E200932EA0 /* Assets.xcassets */; };
+		648EB478259B81E200932EA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EB477259B81E200932EA0 /* Preview Assets.xcassets */; };
+		648EB483259B81E200932EA0 /* DawnsFlowerBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB482259B81E200932EA0 /* DawnsFlowerBoxTests.swift */; };
+		648EB48E259B81E200932EA0 /* DawnsFlowerBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB48D259B81E200932EA0 /* DawnsFlowerBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648EB47F259B81E200932EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648EB465259B81E100932EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648EB46C259B81E100932EA0;
+			remoteInfo = DawnsFlowerBox;
+		};
+		648EB48A259B81E200932EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648EB465259B81E100932EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648EB46C259B81E100932EA0;
+			remoteInfo = DawnsFlowerBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		648EB46D259B81E100932EA0 /* DawnsFlowerBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawnsFlowerBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		648EB470259B81E100932EA0 /* DawnsFlowerBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnsFlowerBoxApp.swift; sourceTree = "<group>"; };
+		648EB472259B81E100932EA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		648EB474259B81E200932EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648EB477259B81E200932EA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		648EB479259B81E200932EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648EB47E259B81E200932EA0 /* DawnsFlowerBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawnsFlowerBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648EB482259B81E200932EA0 /* DawnsFlowerBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnsFlowerBoxTests.swift; sourceTree = "<group>"; };
+		648EB484259B81E200932EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648EB489259B81E200932EA0 /* DawnsFlowerBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawnsFlowerBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648EB48D259B81E200932EA0 /* DawnsFlowerBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnsFlowerBoxUITests.swift; sourceTree = "<group>"; };
+		648EB48F259B81E200932EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648EB46A259B81E100932EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648EB47B259B81E200932EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648EB486259B81E200932EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		648EB464259B81E100932EA0 = {
+			isa = PBXGroup;
+			children = (
+				648EB46F259B81E100932EA0 /* DawnsFlowerBox */,
+				648EB481259B81E200932EA0 /* DawnsFlowerBoxTests */,
+				648EB48C259B81E200932EA0 /* DawnsFlowerBoxUITests */,
+				648EB46E259B81E100932EA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		648EB46E259B81E100932EA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648EB46D259B81E100932EA0 /* DawnsFlowerBox.app */,
+				648EB47E259B81E200932EA0 /* DawnsFlowerBoxTests.xctest */,
+				648EB489259B81E200932EA0 /* DawnsFlowerBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648EB46F259B81E100932EA0 /* DawnsFlowerBox */ = {
+			isa = PBXGroup;
+			children = (
+				648EB470259B81E100932EA0 /* DawnsFlowerBoxApp.swift */,
+				648EB472259B81E100932EA0 /* ContentView.swift */,
+				648EB474259B81E200932EA0 /* Assets.xcassets */,
+				648EB479259B81E200932EA0 /* Info.plist */,
+				648EB476259B81E200932EA0 /* Preview Content */,
+			);
+			path = DawnsFlowerBox;
+			sourceTree = "<group>";
+		};
+		648EB476259B81E200932EA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				648EB477259B81E200932EA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		648EB481259B81E200932EA0 /* DawnsFlowerBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				648EB482259B81E200932EA0 /* DawnsFlowerBoxTests.swift */,
+				648EB484259B81E200932EA0 /* Info.plist */,
+			);
+			path = DawnsFlowerBoxTests;
+			sourceTree = "<group>";
+		};
+		648EB48C259B81E200932EA0 /* DawnsFlowerBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				648EB48D259B81E200932EA0 /* DawnsFlowerBoxUITests.swift */,
+				648EB48F259B81E200932EA0 /* Info.plist */,
+			);
+			path = DawnsFlowerBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648EB46C259B81E100932EA0 /* DawnsFlowerBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648EB492259B81E200932EA0 /* Build configuration list for PBXNativeTarget "DawnsFlowerBox" */;
+			buildPhases = (
+				648EB469259B81E100932EA0 /* Sources */,
+				648EB46A259B81E100932EA0 /* Frameworks */,
+				648EB46B259B81E100932EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DawnsFlowerBox;
+			productName = DawnsFlowerBox;
+			productReference = 648EB46D259B81E100932EA0 /* DawnsFlowerBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		648EB47D259B81E200932EA0 /* DawnsFlowerBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648EB495259B81E200932EA0 /* Build configuration list for PBXNativeTarget "DawnsFlowerBoxTests" */;
+			buildPhases = (
+				648EB47A259B81E200932EA0 /* Sources */,
+				648EB47B259B81E200932EA0 /* Frameworks */,
+				648EB47C259B81E200932EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648EB480259B81E200932EA0 /* PBXTargetDependency */,
+			);
+			name = DawnsFlowerBoxTests;
+			productName = DawnsFlowerBoxTests;
+			productReference = 648EB47E259B81E200932EA0 /* DawnsFlowerBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		648EB488259B81E200932EA0 /* DawnsFlowerBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648EB498259B81E200932EA0 /* Build configuration list for PBXNativeTarget "DawnsFlowerBoxUITests" */;
+			buildPhases = (
+				648EB485259B81E200932EA0 /* Sources */,
+				648EB486259B81E200932EA0 /* Frameworks */,
+				648EB487259B81E200932EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648EB48B259B81E200932EA0 /* PBXTargetDependency */,
+			);
+			name = DawnsFlowerBoxUITests;
+			productName = DawnsFlowerBoxUITests;
+			productReference = 648EB489259B81E200932EA0 /* DawnsFlowerBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648EB465259B81E100932EA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					648EB46C259B81E100932EA0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					648EB47D259B81E200932EA0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 648EB46C259B81E100932EA0;
+					};
+					648EB488259B81E200932EA0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 648EB46C259B81E100932EA0;
+					};
+				};
+			};
+			buildConfigurationList = 648EB468259B81E100932EA0 /* Build configuration list for PBXProject "DawnsFlowerBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648EB464259B81E100932EA0;
+			productRefGroup = 648EB46E259B81E100932EA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648EB46C259B81E100932EA0 /* DawnsFlowerBox */,
+				648EB47D259B81E200932EA0 /* DawnsFlowerBoxTests */,
+				648EB488259B81E200932EA0 /* DawnsFlowerBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648EB46B259B81E100932EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648EB478259B81E200932EA0 /* Preview Assets.xcassets in Resources */,
+				648EB475259B81E200932EA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648EB47C259B81E200932EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648EB487259B81E200932EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648EB469259B81E100932EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648EB473259B81E100932EA0 /* ContentView.swift in Sources */,
+				648EB471259B81E100932EA0 /* DawnsFlowerBoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648EB47A259B81E200932EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648EB483259B81E200932EA0 /* DawnsFlowerBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648EB485259B81E200932EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648EB48E259B81E200932EA0 /* DawnsFlowerBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648EB480259B81E200932EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648EB46C259B81E100932EA0 /* DawnsFlowerBox */;
+			targetProxy = 648EB47F259B81E200932EA0 /* PBXContainerItemProxy */;
+		};
+		648EB48B259B81E200932EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648EB46C259B81E100932EA0 /* DawnsFlowerBox */;
+			targetProxy = 648EB48A259B81E200932EA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		648EB490259B81E200932EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		648EB491259B81E200932EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648EB493259B81E200932EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DawnsFlowerBox/Preview Content\"";
+				DEVELOPMENT_TEAM = G9ZJ6836UZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DawnsFlowerBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barnes.DawnsFlowerBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648EB494259B81E200932EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DawnsFlowerBox/Preview Content\"";
+				DEVELOPMENT_TEAM = G9ZJ6836UZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DawnsFlowerBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barnes.DawnsFlowerBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		648EB496259B81E200932EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZJ6836UZ;
+				INFOPLIST_FILE = DawnsFlowerBoxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barnes.DawnsFlowerBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DawnsFlowerBox.app/DawnsFlowerBox";
+			};
+			name = Debug;
+		};
+		648EB497259B81E200932EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZJ6836UZ;
+				INFOPLIST_FILE = DawnsFlowerBoxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barnes.DawnsFlowerBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DawnsFlowerBox.app/DawnsFlowerBox";
+			};
+			name = Release;
+		};
+		648EB499259B81E200932EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZJ6836UZ;
+				INFOPLIST_FILE = DawnsFlowerBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barnes.DawnsFlowerBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DawnsFlowerBox;
+			};
+			name = Debug;
+		};
+		648EB49A259B81E200932EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZJ6836UZ;
+				INFOPLIST_FILE = DawnsFlowerBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barnes.DawnsFlowerBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DawnsFlowerBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648EB468259B81E100932EA0 /* Build configuration list for PBXProject "DawnsFlowerBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648EB490259B81E200932EA0 /* Debug */,
+				648EB491259B81E200932EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648EB492259B81E200932EA0 /* Build configuration list for PBXNativeTarget "DawnsFlowerBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648EB493259B81E200932EA0 /* Debug */,
+				648EB494259B81E200932EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648EB495259B81E200932EA0 /* Build configuration list for PBXNativeTarget "DawnsFlowerBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648EB496259B81E200932EA0 /* Debug */,
+				648EB497259B81E200932EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648EB498259B81E200932EA0 /* Build configuration list for PBXNativeTarget "DawnsFlowerBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648EB499259B81E200932EA0 /* Debug */,
+				648EB49A259B81E200932EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 648EB465259B81E100932EA0 /* Project object */;
+}
