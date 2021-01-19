@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64178B80259CB87400A83087 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64178B7F259CB87400A83087 /* CheckoutView.swift */; };
+		643B6568259BACFF00700FC9 /* dfb_flower_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 643B6567259BACFF00700FC9 /* dfb_flower_logo.png */; };
+		643B656D259BAD0A00700FC9 /* dfb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 643B656C259BAD0A00700FC9 /* dfb_logo.png */; };
+		643B657A259BC37000700FC9 /* ArchivoNarrow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6572259BC36F00700FC9 /* ArchivoNarrow-SemiBoldItalic.ttf */; };
+		643B657B259BC37000700FC9 /* ArchivoNarrow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6573259BC36F00700FC9 /* ArchivoNarrow-Regular.ttf */; };
+		643B657C259BC37000700FC9 /* ArchivoNarrow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6574259BC36F00700FC9 /* ArchivoNarrow-Medium.ttf */; };
+		643B657D259BC37000700FC9 /* ArchivoNarrow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6575259BC37000700FC9 /* ArchivoNarrow-Italic.ttf */; };
+		643B657E259BC37000700FC9 /* ArchivoNarrow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6576259BC37000700FC9 /* ArchivoNarrow-SemiBold.ttf */; };
+		643B657F259BC37000700FC9 /* ArchivoNarrow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6577259BC37000700FC9 /* ArchivoNarrow-MediumItalic.ttf */; };
+		643B6580259BC37000700FC9 /* ArchivoNarrow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6578259BC37000700FC9 /* ArchivoNarrow-BoldItalic.ttf */; };
+		643B6581259BC37000700FC9 /* ArchivoNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6579259BC37000700FC9 /* ArchivoNarrow-Bold.ttf */; };
+		643B6586259BC5AC00700FC9 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B6585259BC5AC00700FC9 /* RobotoCondensed-Regular.ttf */; };
+		643B658B259BC62500700FC9 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 643B658A259BC62500700FC9 /* RobotoCondensed-Bold.ttf */; };
+		643B6593259BDF1C00700FC9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643B6592259BDF1C00700FC9 /* CartView.swift */; };
 		648EB471259B81E100932EA0 /* DawnsFlowerBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB470259B81E100932EA0 /* DawnsFlowerBoxApp.swift */; };
 		648EB473259B81E100932EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB472259B81E100932EA0 /* ContentView.swift */; };
 		648EB475259B81E200932EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EB474259B81E200932EA0 /* Assets.xcassets */; };
 		648EB478259B81E200932EA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EB477259B81E200932EA0 /* Preview Assets.xcassets */; };
 		648EB483259B81E200932EA0 /* DawnsFlowerBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB482259B81E200932EA0 /* DawnsFlowerBoxTests.swift */; };
 		648EB48E259B81E200932EA0 /* DawnsFlowerBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB48D259B81E200932EA0 /* DawnsFlowerBoxUITests.swift */; };
+		648EB49F259B821200932EA0 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EB49E259B821200932EA0 /* CatalogView.swift */; };
+		648EB4AB259B842F00932EA0 /* a_beautiful_snowflake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648EB4A5259B842F00932EA0 /* a_beautiful_snowflake.jpg */; };
+		648EB4AC259B842F00932EA0 /* a_deep_love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648EB4A6259B842F00932EA0 /* a_deep_love.jpg */; };
+		648EB4AD259B842F00932EA0 /* a_sparkle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648EB4A7259B842F00932EA0 /* a_sparkle.jpg */; };
+		648EB4AE259B842F00932EA0 /* a_dozen_red_roses_gift_bag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648EB4A8259B842F00932EA0 /* a_dozen_red_roses_gift_bag.jpg */; };
+		648EB4AF259B842F00932EA0 /* a_magical_christmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648EB4A9259B842F00932EA0 /* a_magical_christmas.jpg */; };
+		648EB4B0259B842F00932EA0 /* a_luxury_twelve_red_roses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 648EB4AA259B842F00932EA0 /* a_luxury_twelve_red_roses.jpg */; };
+		64A95C9325B75AAA00A29AA6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A95C9225B75AAA00A29AA6 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64178B7F259CB87400A83087 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		643B6567259BACFF00700FC9 /* dfb_flower_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dfb_flower_logo.png; sourceTree = "<group>"; };
+		643B656C259BAD0A00700FC9 /* dfb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dfb_logo.png; sourceTree = "<group>"; };
+		643B6572259BC36F00700FC9 /* ArchivoNarrow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		643B6573259BC36F00700FC9 /* ArchivoNarrow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-Regular.ttf"; sourceTree = "<group>"; };
+		643B6574259BC36F00700FC9 /* ArchivoNarrow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-Medium.ttf"; sourceTree = "<group>"; };
+		643B6575259BC37000700FC9 /* ArchivoNarrow-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-Italic.ttf"; sourceTree = "<group>"; };
+		643B6576259BC37000700FC9 /* ArchivoNarrow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-SemiBold.ttf"; sourceTree = "<group>"; };
+		643B6577259BC37000700FC9 /* ArchivoNarrow-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-MediumItalic.ttf"; sourceTree = "<group>"; };
+		643B6578259BC37000700FC9 /* ArchivoNarrow-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		643B6579259BC37000700FC9 /* ArchivoNarrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoNarrow-Bold.ttf"; sourceTree = "<group>"; };
+		643B6585259BC5AC00700FC9 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		643B658A259BC62500700FC9 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		643B6592259BDF1C00700FC9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		648EB46D259B81E100932EA0 /* DawnsFlowerBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawnsFlowerBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EB470259B81E100932EA0 /* DawnsFlowerBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnsFlowerBoxApp.swift; sourceTree = "<group>"; };
 		648EB472259B81E100932EA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +81,14 @@
 		648EB489259B81E200932EA0 /* DawnsFlowerBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawnsFlowerBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EB48D259B81E200932EA0 /* DawnsFlowerBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnsFlowerBoxUITests.swift; sourceTree = "<group>"; };
 		648EB48F259B81E200932EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648EB49E259B821200932EA0 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		648EB4A5259B842F00932EA0 /* a_beautiful_snowflake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_beautiful_snowflake.jpg; sourceTree = "<group>"; };
+		648EB4A6259B842F00932EA0 /* a_deep_love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_deep_love.jpg; sourceTree = "<group>"; };
+		648EB4A7259B842F00932EA0 /* a_sparkle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_sparkle.jpg; sourceTree = "<group>"; };
+		648EB4A8259B842F00932EA0 /* a_dozen_red_roses_gift_bag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_dozen_red_roses_gift_bag.jpg; sourceTree = "<group>"; };
+		648EB4A9259B842F00932EA0 /* a_magical_christmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_magical_christmas.jpg; sourceTree = "<group>"; };
+		648EB4AA259B842F00932EA0 /* a_luxury_twelve_red_roses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_luxury_twelve_red_roses.jpg; sourceTree = "<group>"; };
+		64A95C9225B75AAA00A29AA6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		643B6571259BC32900700FC9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				643B658A259BC62500700FC9 /* RobotoCondensed-Bold.ttf */,
+				643B6585259BC5AC00700FC9 /* RobotoCondensed-Regular.ttf */,
+				643B6579259BC37000700FC9 /* ArchivoNarrow-Bold.ttf */,
+				643B6578259BC37000700FC9 /* ArchivoNarrow-BoldItalic.ttf */,
+				643B6575259BC37000700FC9 /* ArchivoNarrow-Italic.ttf */,
+				643B6574259BC36F00700FC9 /* ArchivoNarrow-Medium.ttf */,
+				643B6577259BC37000700FC9 /* ArchivoNarrow-MediumItalic.ttf */,
+				643B6573259BC36F00700FC9 /* ArchivoNarrow-Regular.ttf */,
+				643B6576259BC37000700FC9 /* ArchivoNarrow-SemiBold.ttf */,
+				643B6572259BC36F00700FC9 /* ArchivoNarrow-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		648EB464259B81E100932EA0 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +156,23 @@
 		648EB46F259B81E100932EA0 /* DawnsFlowerBox */ = {
 			isa = PBXGroup;
 			children = (
+				643B6571259BC32900700FC9 /* Fonts */,
 				648EB470259B81E100932EA0 /* DawnsFlowerBoxApp.swift */,
 				648EB472259B81E100932EA0 /* ContentView.swift */,
+				648EB49E259B821200932EA0 /* CatalogView.swift */,
+				64A95C9225B75AAA00A29AA6 /* Utils.swift */,
+				643B6592259BDF1C00700FC9 /* CartView.swift */,
+				64178B7F259CB87400A83087 /* CheckoutView.swift */,
+				648EB4A5259B842F00932EA0 /* a_beautiful_snowflake.jpg */,
+				648EB4A6259B842F00932EA0 /* a_deep_love.jpg */,
+				648EB4A8259B842F00932EA0 /* a_dozen_red_roses_gift_bag.jpg */,
+				648EB4AA259B842F00932EA0 /* a_luxury_twelve_red_roses.jpg */,
+				648EB4A9259B842F00932EA0 /* a_magical_christmas.jpg */,
+				648EB4A7259B842F00932EA0 /* a_sparkle.jpg */,
+				643B656C259BAD0A00700FC9 /* dfb_logo.png */,
+				648EB4A3259B833300932EA0 /* Resources */,
 				648EB474259B81E200932EA0 /* Assets.xcassets */,
+				643B6567259BACFF00700FC9 /* dfb_flower_logo.png */,
 				648EB479259B81E200932EA0 /* Info.plist */,
 				648EB476259B81E200932EA0 /* Preview Content */,
 			);
@@ -128,6 +203,21 @@
 				648EB48F259B81E200932EA0 /* Info.plist */,
 			);
 			path = DawnsFlowerBoxUITests;
+			sourceTree = "<group>";
+		};
+		648EB4A3259B833300932EA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				648EB4A4259B834C00932EA0 /* Pictures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		648EB4A4259B834C00932EA0 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +323,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648EB4B0259B842F00932EA0 /* a_luxury_twelve_red_roses.jpg in Resources */,
 				648EB478259B81E200932EA0 /* Preview Assets.xcassets in Resources */,
+				648EB4AC259B842F00932EA0 /* a_deep_love.jpg in Resources */,
+				643B657F259BC37000700FC9 /* ArchivoNarrow-MediumItalic.ttf in Resources */,
+				648EB4AE259B842F00932EA0 /* a_dozen_red_roses_gift_bag.jpg in Resources */,
+				643B657E259BC37000700FC9 /* ArchivoNarrow-SemiBold.ttf in Resources */,
+				643B658B259BC62500700FC9 /* RobotoCondensed-Bold.ttf in Resources */,
+				643B657D259BC37000700FC9 /* ArchivoNarrow-Italic.ttf in Resources */,
+				643B6568259BACFF00700FC9 /* dfb_flower_logo.png in Resources */,
+				643B657B259BC37000700FC9 /* ArchivoNarrow-Regular.ttf in Resources */,
+				643B6586259BC5AC00700FC9 /* RobotoCondensed-Regular.ttf in Resources */,
+				643B6580259BC37000700FC9 /* ArchivoNarrow-BoldItalic.ttf in Resources */,
+				643B656D259BAD0A00700FC9 /* dfb_logo.png in Resources */,
 				648EB475259B81E200932EA0 /* Assets.xcassets in Resources */,
+				643B657C259BC37000700FC9 /* ArchivoNarrow-Medium.ttf in Resources */,
+				643B6581259BC37000700FC9 /* ArchivoNarrow-Bold.ttf in Resources */,
+				648EB4AD259B842F00932EA0 /* a_sparkle.jpg in Resources */,
+				648EB4AB259B842F00932EA0 /* a_beautiful_snowflake.jpg in Resources */,
+				643B657A259BC37000700FC9 /* ArchivoNarrow-SemiBoldItalic.ttf in Resources */,
+				648EB4AF259B842F00932EA0 /* a_magical_christmas.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +368,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				648EB473259B81E100932EA0 /* ContentView.swift in Sources */,
+				648EB49F259B821200932EA0 /* CatalogView.swift in Sources */,
+				64178B80259CB87400A83087 /* CheckoutView.swift in Sources */,
+				643B6593259BDF1C00700FC9 /* CartView.swift in Sources */,
 				648EB471259B81E100932EA0 /* DawnsFlowerBoxApp.swift in Sources */,
+				64A95C9325B75AAA00A29AA6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

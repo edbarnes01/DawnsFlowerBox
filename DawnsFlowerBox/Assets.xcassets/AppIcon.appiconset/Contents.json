@@ -1,21 +1,25 @@
 {
   "images" : [
     {
+      "filename" : "dfb_flower_icon_40.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "dfb_flower_icon_60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "dfb_flower_icon_58.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "dfb_flower_icon_87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"

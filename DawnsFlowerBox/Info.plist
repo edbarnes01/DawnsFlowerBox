@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Dawns Flower Box</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,6 +22,19 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ArchivoNarrow-Bold.ttf</string>
+		<string>ArchivoNarrow-BoldItalic.ttf</string>
+		<string>ArchivoNarrow-Italic.ttf</string>
+		<string>ArchivoNarrow-Medium.ttf</string>
+		<string>ArchivoNarrow-MediumItalic</string>
+		<string>ArchivoNarrow-Regular.ttf</string>
+		<string>ArchivoNarrow-SemiBold.ttf</string>
+		<string>ArchivoNarrow-SemiBoldItalic.ttf</string>
+		<string>RobotoCondensed-Regular.ttf</string>
+		<string>RobotoCondensed-Bold.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
